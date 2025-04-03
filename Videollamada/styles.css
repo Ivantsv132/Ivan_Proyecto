@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#video-container {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+video {
+    width: 320px;
+    height: 240px;
+    background-color: #000;
+    border-radius: 10px;
+}
+
+#controles {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#IniciarBtn{
+    background-color: #4c77af;
+    color: white;
+}
+
+#FinalizarBtn{
+    background-color: #471649;
+    color: white;
+}
+
+#Estado {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#Llamada-Entrante {
+    margin-top: 20px;
+    display: none;
+}
+#AceptarBtn{
+    background-color: rgba(9, 106, 81, 0.45);
+    color: white;
+}
+
+#RechazarBtn{
+    background-color: #6f82dd;
+    color: #ffffff;
+}

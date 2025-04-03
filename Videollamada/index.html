@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Videollamada en Tiempo Real</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="video-container">
+    <video id="Videolocal" autoplay muted></video>
+    <video id="Videoremoto" autoplay></video>
+</div>
+<div id="controles">
+    <button id="IniciarBtn">Iniciar Llamada</button>
+    <button id="FinalizarBtn">Finalizar Llamada</button>
+</div>
+<div id="Estado">Desconectado</div>
+<div id="Llamada-Entrante">
+    <p>Rechazar o Aceptar llamada</p>
+    <button id="AceptarBtn">Aceptar</button>
+    <button id="RechazarBtn">Rechazar</button>
+</div>
+
+<script src="scripts.js"></script>
+</body>
+</html>
